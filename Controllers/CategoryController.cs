@@ -12,6 +12,8 @@ namespace Shop.Controller
        [HttpGet]
        [Route("")] 
        [AllowAnonymous]
+       [ResponseCache(VaryByHeader = "User-Agent", Location = ResponseCacheLocation.Any, Duration = 30 )]
+       // [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None,NoStore = true)]
        public async Task<ActionResult<List<Category>>> Get(
          [FromServices] DataContext context
        ){
