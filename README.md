@@ -13,6 +13,8 @@ Todos os endpoints foram testados via POSTMAN rodando InMemory. Para após, subi
 
 Note que nos controllers, a rota está como V1. O v1 é o versionamento da API. Os controllers estão com cache configurados e com compressão do JSON.
 
+Também está documentado, utilizando o Swagger com todas as informações da API.
+
 A API rodando pode ser visualizada no seguinte https://rncp.azurewebsites.net/
 
 Claro! no momento dei um STOP no servidor, para que eu não tenha custos de DTU. :)
